@@ -1,5 +1,3 @@
-from phy import IPlugin, connect
-
 """Prevent unwanted views from instantiating
 
 minimal_list: list
@@ -8,6 +6,8 @@ minimal_list: list
 - use --debug to check accurate listing
 
 """
+
+from phy import IPlugin, connect
 
 class Minimalist(IPlugin):
     def attach_to_controller(self, controller):
