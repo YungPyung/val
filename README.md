@@ -2,7 +2,7 @@
 Extensions for phy manual curation
 
 ## Setup
-1. Go to your global .phy folder (e.g. "C:\Users\Me\.phy")
+1. Go to your global .phy folder (e.g. "C:\\Users\\Me\\.phy")
 2. Edit phy_config.py
 ```
 c = get_config()
