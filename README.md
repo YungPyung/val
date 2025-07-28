@@ -22,4 +22,4 @@ Separate python script for pre-phy modifications
 * **Peak to trough amplitude** - replace amplitudes.npy (L2 norm of spike features)
 
 ## For More Info
-Learn about the plugin system with examples [here](https://phy.readthedocs.io/en/latest/plugins)
+Create your own phy plugins with examples [here](https://phy.readthedocs.io/en/latest/plugins)
