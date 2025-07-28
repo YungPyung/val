@@ -15,11 +15,11 @@ c.TemplateGUI.plugins = ['List of my plugins'] # e.g. 'Minimalist', 'Gmsplit', '
 Source - [Read the Docs](https://phy.readthedocs.io/en/latest/customization)
 
 ## Plugins
-* [**Minimalist**](plugins/minimalist.py) - only views in Minimalist operate in GUI (performance, decluttering)
+* [**Minimalist**](/plugins/minimalist.py) - only views in Minimalist operate in GUI (performance, decluttering)
 
 ## Accessories
 Separate python script for pre-phy modifications
-* [**Peak to trough amplitude**](accessories/peak_trough.py) - replace original amplitudes.npy as new 'template' amplitude (L2 norm of spike features)
+* [**Peak to trough amplitude**](/accessories/peak_trough.py) - replace original amplitudes.npy as new 'template' amplitude (L2 norm of spike features)
 
 ## For More Info
 Create your own phy plugins with examples [here](https://phy.readthedocs.io/en/latest/plugins)
