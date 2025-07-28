@@ -12,12 +12,14 @@ c.TemplateGUI.plugins = ['List of my plugins'] # e.g. 'Minimalist', 'Gmsplit', '
 3. Create "plugins" folder (same path as c.Plugins.dirs)
 4. Copy and paste plugins as .py files
 
-Setup from [phy - Read the Docs](https://phy.readthedocs.io/en/latest/customization)
+[phy - Read the Docs](https://phy.readthedocs.io/en/latest/customization)
 
 ## Plugins
-Inspired by [phy plugin examples](https://phy.readthedocs.io/en/latest/plugins)
 * **Minimalist** - only views in Minimalist operate in GUI (performance, decluttering)
 
 ## Accessories
 Separate python script for pre-phy modifications
 * **Peak to trough amplitude** - replace amplitudes.npy (L2 norm of spike features)
+
+## For more info
+Learn about the plugin system with examples [here](https://phy.readthedocs.io/en/latest/plugins)
