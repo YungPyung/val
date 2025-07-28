@@ -19,7 +19,7 @@ Source - [Read the Docs](https://phy.readthedocs.io/en/latest/customization)
 
 ## Accessories
 Separate python script for pre-phy modifications (must activate phy env)
-* [**Peak to trough amplitude**](/accessories/peak_trough.py) - replace original amplitudes.npy as new 'template' amplitude (L2 norm of spike features)
+* [**Peak to trough amplitude**](/accessories/peak_trough.py) - replace original amplitudes.npy (L2 norm of spike features) as new 'template' in AmplitudeView
 
 ## For More Info
 Create your own phy plugins with examples [here](https://phy.readthedocs.io/en/latest/plugins)
