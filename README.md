@@ -1,5 +1,5 @@
 # val
-Extensions for phy manual curation
+Extensions for [phy](https://github.com/cortex-lab/phy) manual curation
 
 ## Setup
 1. Go to your global .phy folder (e.g. "C:\\Users\\me\\.phy")
