@@ -1,6 +1,6 @@
 """Create a new 'amplitudes.npy' to replace the original
 
-**The original file will be overwritten if no changes to out_path**
+**The original file will be functionally deleted if no changes to out_path**
 
 Edit:
 'params_path' - your params.py path inside data directory
