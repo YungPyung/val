@@ -11,11 +11,9 @@ This may take a few minutes
 
 """
 
-
 from phylib.io.model import load_model
 import numpy as np
 import os
-
 
 # Load
 params_path = ""
