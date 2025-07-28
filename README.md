@@ -7,7 +7,7 @@ Extensions for phy manual curation
 ```
 c = get_config()
 c.Plugins.dirs = ['My plugin directory'] # e.g. "C:\Users\me\.phy\plugins"
-c.TemplateGUI.plugins = ['List of plugins'] # e.g. 'Minimalist', 'Gmsplit', 'Columns'
+c.TemplateGUI.plugins = ['List of my plugins'] # e.g. 'Minimalist', 'Gmsplit', 'Columns'
 ```
 3. Create "plugins" folder (same path as c.Plugins.dirs)
 4. Copy and paste plugins as .py files
