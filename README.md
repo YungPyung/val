@@ -21,5 +21,5 @@ c.TemplateGUI.plugins = ['List of my plugins'] # e.g. 'Minimalist', 'Gmsplit', '
 Separate python script for pre-phy modifications
 * **Peak to trough amplitude** - replace amplitudes.npy (L2 norm of spike features)
 
-## For more info
+## For More Info
 Learn about the plugin system with examples [here](https://phy.readthedocs.io/en/latest/plugins)
