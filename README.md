@@ -12,7 +12,7 @@ c.TemplateGUI.plugins = ['List of my plugins'] # e.g. 'Minimalist', 'Gmsplit', '
 3. Create "plugins" folder (same path as c.Plugins.dirs)
 4. Copy and paste plugins as .py files
 
-Source - [Read the Docs](https://phy.readthedocs.io/en/latest/customization)
+For troubleshooting - [Read the Docs](https://phy.readthedocs.io/en/latest/customization)
 
 ## Plugins
 * [**Minimalist**](/plugins/minimalist.py) - only views in Minimalist operate in GUI (performance, decluttering)
