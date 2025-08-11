@@ -1,6 +1,6 @@
 """Create a new 'amplitudes.npy' to replace the original
 
-**The original file will be overwritten if no changes**
+**The original file will be functionally deleted if no changes to out_path**
 
 Edit:
 'params_path' - your params.py path inside data directory
@@ -11,11 +11,9 @@ This may take a few minutes
 
 """
 
-
 from phylib.io.model import load_model
 import numpy as np
 import os
-
 
 # Load
 params_path = ""
