@@ -7,7 +7,7 @@ Extensions for [phy](https://github.com/cortex-lab/phy) manual curation
 ```
 c = get_config()
 c.Plugins.dirs = ['My plugin directory'] # e.g. "C:\Users\me\.phy\plugins"
-c.TemplateGUI.plugins = ['List of my plugins'] # e.g. 'Minimalist', 'Gmsplit', 'Columns'
+c.TemplateGUI.plugins = ['List of my plugins'] # e.g. 'Minimalist', 'Mergeall', 'Splitamp'
 ```
 3. Create "plugins" folder (same path as c.Plugins.dirs)
 4. Copy and paste plugins as .py files
