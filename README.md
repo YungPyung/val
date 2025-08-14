@@ -23,6 +23,8 @@ For troubleshooting - [Read the Docs](https://phy.readthedocs.io/en/latest/custo
 
 * [**Splitfeature**](/plugins/splitfeature.py) - split button for outliers or clusters in FeatureView
 
+* [**Splitfeatureprompt**](/plugins/splitfeature.py) - replace "Splitfeature" for prompt-based arguments
+
 more to come...
 
 ## Accessories
