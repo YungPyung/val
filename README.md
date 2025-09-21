@@ -38,4 +38,4 @@ And more examples from other users [Julie-Fabre](https://github.com/Julie-Fabre/
 
 ## Education
 Learn more about electrophysiology lab pipelines:
-Quick [animation](/education/Intro%20to%20Phy.gif) or [view](/education/Intro%20to%20Phy.pdf) pdf
+Quick [animation](/education/Intro%20to%20Phy.gif) or [pdf](/education/Intro%20to%20Phy.pdf)
