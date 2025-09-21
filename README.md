@@ -31,7 +31,11 @@ more to come...
 Separate python script for pre-phy modifications (must activate phy env)
 * [**Peak to trough amplitude**](/accessories/peak_trough.py) - replace original amplitudes.npy (L2 norm of spike features) as new 'template' in AmplitudeView
 
-## For More Info
+## Customization
 Create your own phy plugins with source [examples](https://phy.readthedocs.io/en/latest/plugins)
 
 And more examples from other users [Julie-Fabre](https://github.com/Julie-Fabre/phyPlugins) and [petersenpeter](https://github.com/petersenpeter/phy2-plugins)
+
+## Education
+Learn more about electrophysiology lab pipelines:
+Quick [view](/education/Intro%20to%20Phy.gif) or [download](/education/Intro%20to%20Phy.pdf) pdf
