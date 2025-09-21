@@ -1,6 +1,12 @@
 # val
 Extensions for [phy](https://github.com/cortex-lab/phy) manual curation
 
+## Introduction
+Learn more about electrophysiology lab pipelines:
+Quick [animation](/education/Intro%20to%20Phy.gif) or [pdf](/education/Intro%20to%20Phy.pdf)
+
+![](/education/Intro%20to%20Phy.gif)
+
 ## Setup
 1. Go to your global .phy folder (e.g. "C:\\Users\\me\\.phy")
 2. Edit phy_config.py
@@ -35,9 +41,3 @@ Separate python script for pre-phy modifications (must activate phy env)
 Create your own phy plugins with source [examples](https://phy.readthedocs.io/en/latest/plugins)
 
 And more examples from other users [Julie-Fabre](https://github.com/Julie-Fabre/phyPlugins) and [petersenpeter](https://github.com/petersenpeter/phy2-plugins)
-
-## Education
-Learn more about electrophysiology lab pipelines:
-Quick [animation](/education/Intro%20to%20Phy.gif) or [pdf](/education/Intro%20to%20Phy.pdf)
-
-![](/education/Intro%20to%20Phy.gif)
