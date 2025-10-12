@@ -1,6 +1,10 @@
 # val
 Extensions for [phy](https://github.com/cortex-lab/phy) manual curation
 
+Types:
+1. Time savers -> Reduce session fatigue
+2. Statistical models -> Replace subjective splitting
+
 ## Introduction
 Learn more about electrophysiology lab pipelines:
 Quick [animation](/education/Intro%20to%20Phy.gif) or [pdf](/education/Intro%20to%20Phy.pdf)
@@ -23,13 +27,15 @@ For troubleshooting - [Read the Docs](https://phy.readthedocs.io/en/latest/custo
 ## Plugins
 * [**Minimalist**](/plugins/minimalist.py) - deactivate views in GUI (performance, decluttering)
 
-* [**Mergeall**](/plugins/mergeall.py) - lazy merge button for non-noise clusters
+* [**Mergeall**](/plugins/mergeall.py) - lazy merge button for all non-noise clusters (rare case)
+
+-----------------------------------------------------------------------------------------------------
 
 * [**Splitamp**](/plugins/splitamp.py) - split button for outliers in AmplitudeView
 
 * [**Splitfeature**](/plugins/splitfeature.py) - split button for outliers or clusters in FeatureView
 
-* [**Splitfeatureprompt**](/plugins/splitfeature.py) - replace "Splitfeature" for prompt-based arguments
+* [**Splitfeatureprompt**](/plugins/splitfeature.py) - "Splitfeature" with prompt-based arguments
 
 more to come...
 
