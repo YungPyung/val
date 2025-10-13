@@ -47,3 +47,7 @@ Separate python script for pre-phy modifications (must activate phy env)
 Create your own phy plugins with source [examples](https://phy.readthedocs.io/en/latest/plugins)
 
 And more examples from other users [Julie-Fabre](https://github.com/Julie-Fabre/phyPlugins) and [petersenpeter](https://github.com/petersenpeter/phy2-plugins)
+
+## Funding
+CHP Summer Research Award (2025)
+Special thanks to the Campus Honors Program at the University of Illinois Urbana-Champaign!
