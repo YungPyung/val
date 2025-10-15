@@ -1,9 +1,12 @@
 # val
-Extensions for [phy](https://github.com/cortex-lab/phy) manual curation
+Extensions for [phy](https://github.com/cortex-lab/phy) manual curation  
 
-Types:
 1. Time savers -> Reduce session fatigue
 2. Statistical models -> Replace subjective splitting
+
+
+_**phy** is developed and maintained by [Cyrille Rossant](https://cyrille.rossant.net)_
+
 
 ## Intro Slides
 Learn more about electrophysiology lab pipelines:
