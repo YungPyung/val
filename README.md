@@ -5,7 +5,7 @@ Types:
 1. Time savers -> Reduce session fatigue
 2. Statistical models -> Replace subjective splitting
 
-## Introduction
+## Intro Slides
 Learn more about electrophysiology lab pipelines:
 Quick [animation](/education/Intro%20to%20Phy.gif) or [pdf](/education/Intro%20to%20Phy.pdf)
 
