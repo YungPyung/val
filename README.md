@@ -36,6 +36,8 @@ For troubleshooting - [Read the Docs](https://phy.readthedocs.io/en/latest/custo
 
 * [**Splitamp**](/plugins/splitamp.py) - split button for outliers in AmplitudeView
 
+* [**Splitampprompt**](/plugins/splitampprompt.py) - "Splitamp" with prompt-based arguments
+
 * [**Splitfeature**](/plugins/splitfeature.py) - split button for outliers or clusters in FeatureView
 
 * [**Splitfeatureprompt**](/plugins/splitfeature.py) - "Splitfeature" with prompt-based arguments

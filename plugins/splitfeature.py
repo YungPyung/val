@@ -18,9 +18,9 @@ from phy.cluster.views import FeatureView
 from phy.apps.template import TemplateController as ctrl
 
 # Outliers
-def isolation_forest(x):
+def isolation_forest(x, contamination=0.005):
     from sklearn.ensemble import IsolationForest
-    raw_labels = IsolationForest(contamination=0.005, random_state=0).fit_predict(x)
+    raw_labels = IsolationForest(contamination=contamination, random_state=0).fit_predict(x)
     return raw_labels.clip(min=0, out=raw_labels)
 
 # Too slow
@@ -29,11 +29,10 @@ def isolation_forest(x):
     #raw_labels = EllipticEnvelope(contamination=0.005, random_state=0).fit_predict(x)
     #return raw_labels.clip(min=0, out=raw_labels)
 
-
 # Clusters
-def gaussian_mixture(x):
+def gaussian_mixture(x, n_components=2):
     from sklearn.mixture import GaussianMixture
-    return GaussianMixture(n_components=2, random_state=0).fit_predict(x)
+    return GaussianMixture(n_components=n_components, random_state=0).fit_predict(x)
 
 #def k_means(x):
     #from sklearn.cluster import KMeans
@@ -46,7 +45,8 @@ class Splitfeature(IPlugin):
         def on_view_attached(view, gui):
             if isinstance(view, FeatureView):
                 # Outliers
-                @view.dock.add_button(icon='31') # The icon unicode can be found at https://fontawesome.com/icons?d=gallery
+                # The icon unicode can be found at https://fontawesome.com/icons?d=gallery
+                @view.dock.add_button(icon='f110')
                 def outlier_split(checked):
                     # The checked argument is only used with buttons `checkable=True`
                     
@@ -68,7 +68,7 @@ class Splitfeature(IPlugin):
                     controller.supervisor.actions.split(spike_ids, labels)
 
                 # Clusters
-                @view.dock.add_button(icon='32')
+                @view.dock.add_button(icon='f042')
                 def cluster_split(checked):
                     # The checked argument is only used with buttons `checkable=True`
                     

@@ -1,6 +1,5 @@
 """Split outliers or clusters in FeatureView with custom args
 
-- buttons ("1" for outliers, "2" for clusters)
 - for outliers: Isolation Forest
 - for clusters: Gaussian Mixture Model
 - based on first two PC features
@@ -44,7 +43,7 @@ class Splitfeatureprompt(IPlugin):
         @connect
         def on_view_attached(view, gui):
             if isinstance(view, FeatureView):
-                @view.dock.add_button(icon='31')
+                @view.dock.add_button(icon='f110')
                 def outlier_split_button(checked):
                     # Prompt for the contamination value
                     contamination = input_dialog(
@@ -73,7 +72,7 @@ class Splitfeatureprompt(IPlugin):
                     # Split
                     controller.supervisor.actions.split(spike_ids, labels)
 
-                @view.dock.add_button(icon='32')
+                @view.dock.add_button(icon='f042')
                 def cluster_split_button(checked):
                     n_components = input_dialog(
                         title="Set Components Value",
