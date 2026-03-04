@@ -3,6 +3,7 @@ Extensions for [phy](https://github.com/cortex-lab/phy) manual curation
 
 1. Time savers -> Reduce session fatigue
 2. Statistical models -> Replace subjective splitting
+3. Custom views -> Consolidate analysis
 
 
 _**phy** is developed and maintained by [Cyrille Rossant](https://cyrille.rossant.net)_
@@ -41,6 +42,12 @@ For troubleshooting - [Read the Docs](https://phy.readthedocs.io/en/latest/custo
 * [**Splitfeature**](/plugins/splitfeature.py) - split button for outliers or clusters in FeatureView
 
 * [**Splitfeatureprompt**](/plugins/splitfeature.py) - "Splitfeature" with prompt-based arguments
+
+-----------------------------------------------------------------------------------------------------
+*NEW*
+
+* [**Clusterquality**](/plugins/clusterquality.py) - custom view with final quality metrics
+
 
 more to come...
 
