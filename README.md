@@ -29,15 +29,15 @@ c.TemplateGUI.plugins = ['List of my plugins'] # e.g. 'Minimalist', 'Mergeall', 
 For troubleshooting - [Read the Docs](https://phy.readthedocs.io/en/latest/customization)
 
 ## Plugins
-* [**Minimalist**](/plugins/minimalist.py) - deactivate views in GUI (performance, decluttering)
+* [**Minimalist**](/plugins/minimalist.py) - deactivate views in GUI
 
-* [**Mergeall**](/plugins/mergeall.py) - lazy merge button for all non-noise clusters (rare case)
+* [**Mergeall**](/plugins/mergeall.py) - lazy merge button for all non-noise clusters
 
 -----------------------------------------------------------------------------------------------------
 
 * [**Splitamp**](/plugins/splitamp.py) - split button for outliers in AmplitudeView
 
-* [**Splitampprompt**](/plugins/splitampprompt.py) - "Splitamp" with prompt-based arguments
+* [**Splitampprompt**](/plugins/splitampprompt.py) - "Splitamp" with prompt-based argument
 
 * [**Splitfeature**](/plugins/splitfeature.py) - split button for outliers or clusters in FeatureView
 
@@ -46,9 +46,10 @@ For troubleshooting - [Read the Docs](https://phy.readthedocs.io/en/latest/custo
 -----------------------------------------------------------------------------------------------------
 *NEW*
 
-* [**Clusterquality**](/plugins/clusterquality.py) - custom view with final quality metrics
+* [**Clusterquality**](/plugins/clusterquality.py) - custom view with cluster quality metrics
 
 Note: list this plugin first in phy_config.py, then edit the minimalist plugin to include "ClusterQualityView", to avoid conflicts
+
 
 more to come...
 

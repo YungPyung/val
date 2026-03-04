@@ -4,6 +4,8 @@
 - view plugin starts line 322
 - color blue if threshold met for isolation distance and contamination rate
 
+- saves "cluster_is_quality.tsv" with id and true/false (is_quality)
+
 """
 
 from phy import IPlugin, connect
