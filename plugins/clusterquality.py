@@ -2,7 +2,9 @@
 
 - define cluster quality function for only good clusters from ClusterView
 - view plugin starts line 322
-- color blue if threshold met for isolation distance and contamination rate
+- core plugin line 356
+    - color blue if threshold met for isolation distance and contamination rate
+    - line 385: q > 20.0 and c < 0.1
 
 - saves "cluster_is_quality.tsv" with id and true/false (is_quality)
 
