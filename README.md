@@ -48,7 +48,7 @@ For troubleshooting - [Read the Docs](https://phy.readthedocs.io/en/latest/custo
 
 * [**Clusterquality**](/plugins/clusterquality.py) - custom view with cluster quality metrics
 
-Note: list this plugin first in phy_config.py, then edit the minimalist plugin to include "ClusterQualityView", to avoid conflicts
+Tip: list "Clusterquality" in phy_config.py and the Minimalist plugin
 
 
 more to come...
