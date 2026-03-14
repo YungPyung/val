@@ -6,7 +6,7 @@
 
 For customization:
 - define new algorithms below
-- then change line 59 (outliers) or line 81 (clusters)
+- then change line 70 (outliers) or line 97 (clusters)
 
 """
 
@@ -20,7 +20,9 @@ from phy.apps.template import TemplateController as ctrl
 def isolation_forest(x, contamination=0.005):
     from sklearn.ensemble import IsolationForest
     raw_labels = IsolationForest(contamination=contamination, random_state=0).fit_predict(x)
-    return raw_labels.clip(min=0, out=raw_labels)
+    # raw_labels.clip(min=0, out=raw_labels) # outliers and inliers flipped
+
+    return (raw_labels - 1) // -2 
 
 # Too slow
 #def elliptical_envelope(x):

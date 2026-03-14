@@ -5,7 +5,7 @@
 
 for customization:
 - define new algorithms below
-- then change line 47
+- then change line 48
 
 """
 
@@ -15,11 +15,12 @@ from phy.cluster.views import AmplitudeView
 # For type hinting
 from phy.apps.template import TemplateController as ctrl
 
-
-def isolation_forest(x):
+def isolation_forest(x, contamination=0.005):
     from sklearn.ensemble import IsolationForest
-    raw_labels = IsolationForest(contamination=0.005, random_state=0).fit_predict(x)
-    return raw_labels.clip(min=0, out=raw_labels)
+    raw_labels = IsolationForest(contamination=contamination, random_state=0).fit_predict(x)
+    # raw_labels.clip(min=0, out=raw_labels) # outliers and inliers flipped
+    
+    return (raw_labels - 1) // -2 
 
 #def k_means(x):
     #from sklearn.cluster import KMeans
@@ -31,7 +32,7 @@ class Splitamp(IPlugin):
         def on_view_attached(view, gui):
             if isinstance(view, AmplitudeView):
                 # The icon unicode can be found at https://fontawesome.com/icons?d=gallery
-                @view.dock.add_button(icon='f461')
+                @view.dock.add_button(icon='f110')
                 def amplitude_split(checked):
                     # Find amplitudes for selected clusters (only one cluster split in implementation)
                     cluster_ids = controller.supervisor.selected

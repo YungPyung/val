@@ -50,6 +50,8 @@ For troubleshooting - [Read the Docs](https://phy.readthedocs.io/en/latest/custo
 
 Tip: list "Clusterquality" in phy_config.py and the Minimalist plugin
 
+* [**Customfeatureview**](/plugins/customfeatureview.py) - display the best feature map
+
 
 more to come...
 
